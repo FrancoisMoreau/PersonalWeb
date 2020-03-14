@@ -1,25 +1,58 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <title>My Webpage</title>
-    <script src="https://code.jquery.com/jquery-1.10.2.js"></script>
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="content.css">
-    <style>
-
-    </style>
 </head>
 <body>
-<!--load the left part-->
-<div id="nav-placeholder"></div>
-<script>
-    $(function(){
-        $("#nav-placeholder").load("index.html");
-    });
-</script>
-<!--right content part-->
-<div class="content">
-    <h4>Projects</h4>
+<!--navigation part-->
+<div id = "top" class="tag_font">
+    <nav class="nav">
+        <div class="container">
+            <div class="row justify-content-start">
+                <div class="col-2">
+                    <a class="nav-link active" href="index.html">Home</a>
+                </div>
+                <div class="col-2">
+                    <a class="nav-link " href="projects.html">Projects</a>
+                </div>
+                <div class="col-2">
+                    <a class="nav-link " href="experience.html">Experience</a>
+                </div>
+                <div class="col-2">
+                    <a class="nav-link " href="resume.html">Resume</a>
+                </div>
+            </div>
+        </div>
+    </nav>
 </div>
+<!--left part-->
+<div id = "left">
+    <div class="container">
+        <div class="row justify-content-start">
+            <div class="col-3">
+                <img class="col-10" src = "self.png" alt="Avatar">
+                <p></p>
+                <div class="name">Bo Wang</div>
+                <div class="university">Master Student of Computer Engineering, Texas A&M University</div>
+                <p></p>
+                <div class="info">
+                    <p><i class="fa fa-home"> College Station, TX</i></p>
+                    <p><i class="fa fa-envelope"><a href = "mailto: wangbo1995ee@tamu.edu"> Email</a></i></p>
+                    <p><i class="fa fa-linkedin-square"><a href = "https://www.linkedin.com/in/bo-wang-b57296162/"> LinkedIn</a></i></p>
+                    <p><i class="fa fa-github"><a href = "https://github.com/FrancoisMoreau"> GitHub</a></i></p>
+                </div>
+            </div>
+            <div class="col-9">
+                <h3>Projects</h3>
+                <div class="content">
+                    <p>Welcome!</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
 </body>
 </html>

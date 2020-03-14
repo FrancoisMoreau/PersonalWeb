@@ -1,33 +1,41 @@
 #top {
-    margin-top: 20px;
-    margin-left: 40px;
+    margin-top: 2%;
+    /*margin-left: 5%;*/
 }
+
+.tag_font {
+    /*font-family: "Times New Roman", Times, serif;*/
+    font-family: Arial, sans-serif;
+    font-size: 20px;
+}
+
 #left {
-    margin-top: 20px;
-    margin-left: 40px;
+    margin-top: 4%;
+    /*margin-left: 5%;*/
 }
+
 img {
     border-radius: 50%;
 }
+
 .name {
     font-family: Arial, sans-serif;
-    font-size: 12px;
+    font-size: 16px;
     font-weight: bold;
 }
 
 .university {
     font-family: Arial, sans-serif;
-    font-size: 10px;
+    font-size: 14px;
+}
+
+.info {
+    font-family: Arial, sans-serif;
+    font-size: 14px;
 }
 
 .content {
-    position: absolute;
-    left: 320px;
-    top: 80px;
-    z-index: -1;
+    font-family: Arial, sans-serif;
+    font-size: 16px;
 }
 
-.intro {
-    margin-top: 80px;
-    margin-left: 320px;
-}
